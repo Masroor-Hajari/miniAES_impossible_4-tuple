@@ -1,11 +1,11 @@
-# Impossible 4-tuple cryptanalysis to miniAES
+# Impossible 4-tuple cryptanalysis of miniAES
 #Typical Variant
-# I. First diaginal
-    #1. partial Decryption
+# I. First Phase
+    #1. Partial Decryption
     #2. Data Collection
     
-# II. Second diaginal
-    #1. partial Decryption
+# II. Second Phase
+    #1. Partial Decryption
     #2. Data Collection
 
 import random   
