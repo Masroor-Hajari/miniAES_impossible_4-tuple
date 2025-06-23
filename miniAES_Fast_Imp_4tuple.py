@@ -310,16 +310,20 @@ for i in range(0,2):
                 print(RecKey[j][i][k])
             else:
                 print(RecKey[j][i][k], end="")
-print("\tHexadecimal representation: ", end="")
+print("\tHexadecimal representation: ", end = "")
 for i in range(0,2):
     for j in range(0,2):
         n = nib2int(RecKey[j][i])
         if n < 10:
             Str = chr(48 + n)
+            if j==1 and i==1:
+                print(Str)
+            else:
+                print(Str, end = "")
         else:
             Str = chr(87 + n)
             if j==1 and i==1:
                 print(Str)
             else:
-                print(Str, end="")
+                print(Str, end = "")
 ##########################################################################
